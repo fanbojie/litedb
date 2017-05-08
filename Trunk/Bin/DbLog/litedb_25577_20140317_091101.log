@@ -1,0 +1,249 @@
+<2014-03-17 09:11:01-643, tid = b77f06e0> [INF] - (open) start to open connection pool(1;172.26.1.24;3306;dh;123456;litedb).
+<2014-03-17 09:11:01-643, tid = b77f06e0> [INF] - (open) init pool, size=5 type=1 host=172.26.1.24 port=3306 user=dh pwd=123456 database=litedb.
+<2014-03-17 09:11:01-662, tid = b77f06e0> [INF] - (open) open connection pool success.
+<2014-03-17 09:11:01-663, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:01-663, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:01-663, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:01-678, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=IS_ONLINE.
+<2014-03-17 09:11:01-678, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_NAME.
+<2014-03-17 09:11:01-678, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:01-678, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:01-678, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:01-681, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=IS_ONLINE.
+<2014-03-17 09:11:01-681, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_NAME.
+<2014-03-17 09:11:01-681, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:01-681, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:01-681, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:01-681, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=sys_user fieldName=LOGIN_IP value is null.
+<2014-03-17 09:11:01-681, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=SORT value is null.
+<2014-03-17 09:11:01-681, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=USER_TYPE value is null.
+<2014-03-17 09:11:01-681, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=USER_SECURITY_LEV value is null.
+<2014-03-17 09:11:01-681, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=sys_user fieldName=USER_HEAD_PIC value is null.
+<2014-03-17 09:11:01-681, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:01-681, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:01-681, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:01-685, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=IS_ONLINE.
+<2014-03-17 09:11:01-685, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_NAME.
+<2014-03-17 09:11:01-685, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:01-685, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:01-685, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:01-685, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=sys_user fieldName=LOGIN_IP value is null.
+<2014-03-17 09:11:01-686, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=SORT value is null.
+<2014-03-17 09:11:01-686, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=USER_TYPE value is null.
+<2014-03-17 09:11:01-686, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=USER_SECURITY_LEV value is null.
+<2014-03-17 09:11:01-686, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=sys_user fieldName=USER_HEAD_PIC value is null.
+<2014-03-17 09:11:01-686, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=sys_user fieldName=LOGIN_DATE value is null.
+<2014-03-17 09:11:01-686, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=sys_user fieldName=LOGIN_IP value is null.
+<2014-03-17 09:11:01-686, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=SORT value is null.
+<2014-03-17 09:11:01-686, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=USER_TYPE value is null.
+<2014-03-17 09:11:01-686, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=USER_SECURITY_LEV value is null.
+<2014-03-17 09:11:01-686, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=sys_user fieldName=USER_HEAD_PIC value is null.
+<2014-03-17 09:11:01-686, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:01-686, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:01-686, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:01-690, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=IS_ONLINE.
+<2014-03-17 09:11:01-690, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_NAME.
+<2014-03-17 09:11:01-690, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:01-690, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:01-690, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:01-691, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=ID.
+<2014-03-17 09:11:01-691, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_NAME.
+<2014-03-17 09:11:01-691, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_PASS.
+<2014-03-17 09:11:01-691, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_DATE.
+<2014-03-17 09:11:01-691, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_IP.
+<2014-03-17 09:11:01-691, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=IS_REUSE.
+<2014-03-17 09:11:01-691, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=IS_ONLINE.
+<2014-03-17 09:11:01-691, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=OWNER_CODE.
+<2014-03-17 09:11:01-691, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=SORT.
+<2014-03-17 09:11:01-691, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=STAT.
+<2014-03-17 09:11:01-691, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=USER_PHONE.
+<2014-03-17 09:11:01-691, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=USER_TYPE.
+<2014-03-17 09:11:01-691, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=USER_SECURITY_LEV.
+<2014-03-17 09:11:01-691, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=CREATE_DATE.
+<2014-03-17 09:11:01-691, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=USER_HEAD_PIC.
+<2014-03-17 09:11:01-691, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:01-691, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:01-691, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:01-691, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=sys_user fieldName=LOGIN_DATE value is null.
+<2014-03-17 09:11:01-691, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=sys_user fieldName=LOGIN_IP value is null.
+<2014-03-17 09:11:01-692, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=SORT value is null.
+<2014-03-17 09:11:01-692, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=USER_TYPE value is null.
+<2014-03-17 09:11:01-692, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=USER_SECURITY_LEV value is null.
+<2014-03-17 09:11:01-692, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=sys_user fieldName=USER_HEAD_PIC value is null.
+<2014-03-17 09:11:01-692, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:01-692, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:01-692, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:01-694, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=IS_ONLINE.
+<2014-03-17 09:11:01-694, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_NAME.
+<2014-03-17 09:11:01-694, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:01-694, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:01-694, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:01-698, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=ID.
+<2014-03-17 09:11:01-698, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=DEVICE_CODE.
+<2014-03-17 09:11:01-698, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:01-698, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:01-698, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:01-702, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=ID.
+<2014-03-17 09:11:01-702, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=DEVICE_CODE.
+<2014-03-17 09:11:01-702, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:01-702, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:01-702, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:01-703, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=DOMAIN_ID value is null.
+<2014-03-17 09:11:01-703, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=UNIT_NUM value is null.
+<2014-03-17 09:11:01-703, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=REGIST_SERVICE_ID value is null.
+<2014-03-17 09:11:01-703, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=REGIST_PROXY_PORT value is null.
+<2014-03-17 09:11:01-703, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=adm_dev fieldName=REGIST_DEVICE_CODE value is null.
+<2014-03-17 09:11:01-703, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=adm_dev fieldName=MEMO value is null.
+<2014-03-17 09:11:01-703, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=SORT value is null.
+<2014-03-17 09:11:01-703, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=CREATE_USER_ID value is null.
+<2014-03-17 09:11:01-703, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=UPDATE_USER_ID value is null.
+<2014-03-17 09:11:01-703, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=adm_dev fieldName=IDENTIFY_CODE value is null.
+<2014-03-17 09:11:01-703, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:01-703, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:01-703, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:01-704, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=DOMAIN_ID value is null.
+<2014-03-17 09:11:01-704, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=UNIT_NUM value is null.
+<2014-03-17 09:11:01-704, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=REGIST_SERVICE_ID value is null.
+<2014-03-17 09:11:01-704, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=REGIST_PROXY_PORT value is null.
+<2014-03-17 09:11:01-704, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=adm_dev fieldName=REGIST_DEVICE_CODE value is null.
+<2014-03-17 09:11:01-704, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=adm_dev fieldName=MEMO value is null.
+<2014-03-17 09:11:01-704, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=SORT value is null.
+<2014-03-17 09:11:01-704, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=CREATE_USER_ID value is null.
+<2014-03-17 09:11:01-704, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=UPDATE_USER_ID value is null.
+<2014-03-17 09:11:01-704, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=adm_dev fieldName=IDENTIFY_CODE value is null.
+<2014-03-17 09:11:01-704, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:01-704, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:01-705, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:01-709, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=IS_ONLINE.
+<2014-03-17 09:11:01-709, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_NAME.
+<2014-03-17 09:11:01-709, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:01-709, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:01-709, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:01-713, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:01-713, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:01-713, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:01-716, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=IS_ONLINE.
+<2014-03-17 09:11:01-716, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_NAME.
+<2014-03-17 09:11:19-717, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:19-717, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:19-717, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:19-721, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=IS_ONLINE.
+<2014-03-17 09:11:19-722, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_NAME.
+<2014-03-17 09:11:19-722, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:19-722, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:19-722, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:19-724, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=IS_ONLINE.
+<2014-03-17 09:11:19-724, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_NAME.
+<2014-03-17 09:11:19-724, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:19-724, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:19-724, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:19-724, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=sys_user fieldName=LOGIN_IP value is null.
+<2014-03-17 09:11:19-724, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=SORT value is null.
+<2014-03-17 09:11:19-724, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=USER_TYPE value is null.
+<2014-03-17 09:11:19-725, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=USER_SECURITY_LEV value is null.
+<2014-03-17 09:11:19-725, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=sys_user fieldName=USER_HEAD_PIC value is null.
+<2014-03-17 09:11:19-725, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:19-725, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:19-725, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:19-727, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=IS_ONLINE.
+<2014-03-17 09:11:19-727, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_NAME.
+<2014-03-17 09:11:19-727, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:19-727, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:19-727, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:19-728, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=sys_user fieldName=LOGIN_IP value is null.
+<2014-03-17 09:11:19-728, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=SORT value is null.
+<2014-03-17 09:11:19-728, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=USER_TYPE value is null.
+<2014-03-17 09:11:19-728, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=USER_SECURITY_LEV value is null.
+<2014-03-17 09:11:19-728, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=sys_user fieldName=USER_HEAD_PIC value is null.
+<2014-03-17 09:11:19-728, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=sys_user fieldName=LOGIN_DATE value is null.
+<2014-03-17 09:11:19-728, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=sys_user fieldName=LOGIN_IP value is null.
+<2014-03-17 09:11:19-728, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=SORT value is null.
+<2014-03-17 09:11:19-728, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=USER_TYPE value is null.
+<2014-03-17 09:11:19-728, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=USER_SECURITY_LEV value is null.
+<2014-03-17 09:11:19-728, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=sys_user fieldName=USER_HEAD_PIC value is null.
+<2014-03-17 09:11:19-728, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:19-728, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:19-728, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:19-731, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=IS_ONLINE.
+<2014-03-17 09:11:19-731, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_NAME.
+<2014-03-17 09:11:19-731, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:19-731, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:19-731, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:19-731, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=ID.
+<2014-03-17 09:11:19-731, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_NAME.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_PASS.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_DATE.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_IP.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=IS_REUSE.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=IS_ONLINE.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=OWNER_CODE.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=SORT.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=STAT.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=USER_PHONE.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=USER_TYPE.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=USER_SECURITY_LEV.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=CREATE_DATE.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=USER_HEAD_PIC.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:19-732, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=sys_user fieldName=LOGIN_DATE value is null.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=sys_user fieldName=LOGIN_IP value is null.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=SORT value is null.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=USER_TYPE value is null.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=sys_user fieldName=USER_SECURITY_LEV value is null.
+<2014-03-17 09:11:19-732, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=sys_user fieldName=USER_HEAD_PIC value is null.
+<2014-03-17 09:11:19-733, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:19-733, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:19-733, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:19-735, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=IS_ONLINE.
+<2014-03-17 09:11:19-735, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_NAME.
+<2014-03-17 09:11:19-735, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:19-735, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:19-735, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:19-740, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=ID.
+<2014-03-17 09:11:19-740, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=DEVICE_CODE.
+<2014-03-17 09:11:19-740, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:19-740, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:19-740, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:19-743, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=ID.
+<2014-03-17 09:11:19-743, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=DEVICE_CODE.
+<2014-03-17 09:11:19-743, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:19-743, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:19-743, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:19-744, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=DOMAIN_ID value is null.
+<2014-03-17 09:11:19-744, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=UNIT_NUM value is null.
+<2014-03-17 09:11:19-744, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=REGIST_SERVICE_ID value is null.
+<2014-03-17 09:11:19-744, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=REGIST_PROXY_PORT value is null.
+<2014-03-17 09:11:19-744, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=adm_dev fieldName=REGIST_DEVICE_CODE value is null.
+<2014-03-17 09:11:19-744, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=adm_dev fieldName=MEMO value is null.
+<2014-03-17 09:11:19-744, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=SORT value is null.
+<2014-03-17 09:11:19-744, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=CREATE_USER_ID value is null.
+<2014-03-17 09:11:19-744, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=UPDATE_USER_ID value is null.
+<2014-03-17 09:11:19-744, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=adm_dev fieldName=IDENTIFY_CODE value is null.
+<2014-03-17 09:11:19-745, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:19-745, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:19-745, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:19-745, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=DOMAIN_ID value is null.
+<2014-03-17 09:11:19-745, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=UNIT_NUM value is null.
+<2014-03-17 09:11:19-745, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=REGIST_SERVICE_ID value is null.
+<2014-03-17 09:11:19-745, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=REGIST_PROXY_PORT value is null.
+<2014-03-17 09:11:19-745, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=adm_dev fieldName=REGIST_DEVICE_CODE value is null.
+<2014-03-17 09:11:19-745, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=adm_dev fieldName=MEMO value is null.
+<2014-03-17 09:11:19-745, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=SORT value is null.
+<2014-03-17 09:11:19-745, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=CREATE_USER_ID value is null.
+<2014-03-17 09:11:19-745, tid = b77f06e0> [WAR] - (getFieldAsInt32) tableName=adm_dev fieldName=UPDATE_USER_ID value is null.
+<2014-03-17 09:11:19-746, tid = b77f06e0> [WAR] - (getFieldAsString) tableName=adm_dev fieldName=IDENTIFY_CODE value is null.
+<2014-03-17 09:11:19-746, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:19-746, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:19-746, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:19-754, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=IS_ONLINE.
+<2014-03-17 09:11:19-754, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_NAME.
+<2014-03-17 09:11:19-754, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:19-755, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:19-755, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:19-758, tid = b77f06e0> [INF] - (getConnection) begin
+<2014-03-17 09:11:19-758, tid = b77f06e0> [INF] - (getConnection) try times=1.
+<2014-03-17 09:11:19-758, tid = b77f06e0> [INF] - (getConnection) end.
+<2014-03-17 09:11:19-761, tid = b77f06e0> [WAR] - (getFieldAsInt32) the operator has no result, return default value, fieldName=IS_ONLINE.
+<2014-03-17 09:11:19-761, tid = b77f06e0> [WAR] - (getFieldAsString) the operator has no result, return default value, fieldName=LOGIN_NAME.

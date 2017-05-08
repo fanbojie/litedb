@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "litedb", "litedb\litedb.vcproj", "{6873839B-7A43-4F1D-B941-7EA5119315E4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "litebase", "litebase\litebase.vcproj", "{9EFDA6C8-72DA-4007-83D1-79DDAC0363E6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dbtest", "dbtest\dbtest.vcproj", "{59A0F597-CA29-4FC1-859F-F4F6F9B157C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6873839B-7A43-4F1D-B941-7EA5119315E4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6873839B-7A43-4F1D-B941-7EA5119315E4}.Debug|Win32.Build.0 = Debug|Win32
+		{6873839B-7A43-4F1D-B941-7EA5119315E4}.Release|Win32.ActiveCfg = Release|Win32
+		{6873839B-7A43-4F1D-B941-7EA5119315E4}.Release|Win32.Build.0 = Release|Win32
+		{9EFDA6C8-72DA-4007-83D1-79DDAC0363E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9EFDA6C8-72DA-4007-83D1-79DDAC0363E6}.Debug|Win32.Build.0 = Debug|Win32
+		{9EFDA6C8-72DA-4007-83D1-79DDAC0363E6}.Release|Win32.ActiveCfg = Release|Win32
+		{9EFDA6C8-72DA-4007-83D1-79DDAC0363E6}.Release|Win32.Build.0 = Release|Win32
+		{59A0F597-CA29-4FC1-859F-F4F6F9B157C9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{59A0F597-CA29-4FC1-859F-F4F6F9B157C9}.Debug|Win32.Build.0 = Debug|Win32
+		{59A0F597-CA29-4FC1-859F-F4F6F9B157C9}.Release|Win32.ActiveCfg = Release|Win32
+		{59A0F597-CA29-4FC1-859F-F4F6F9B157C9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

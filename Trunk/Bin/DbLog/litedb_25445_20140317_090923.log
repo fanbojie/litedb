@@ -1,0 +1,9 @@
+<2014-03-17 09:09:23-220, tid = b77236e0> [INF] - (open) start to open connection pool(1;172.26.1.24;3306;dh;123456;litedb).
+<2014-03-17 09:09:23-220, tid = b77236e0> [INF] - (open) init pool, size=5 type=1 host=172.26.1.24 port=3306 user=dh pwd=123456 database=litedb.
+<2014-03-17 09:09:23-305, tid = b77236e0> [ERR] - (open) connect mysql server failed, MySQL client library:5.0.95.
+<2014-03-17 09:09:23-316, tid = b77236e0> [ERR] - (open) open connection failed, mysql error, errno=1049 err=Unknown database 'litedb'.
+<2014-03-17 09:09:23-316, tid = b77236e0> [INF] - (close) start to close connection pool.
+<2014-03-17 09:09:23-316, tid = b77236e0> [INF] - (close) connection(0) has all close.
+<2014-03-17 09:09:23-316, tid = b77236e0> [INF] - (close) start to close connection pool.
+<2014-03-17 09:09:23-317, tid = b77236e0> [INF] - (close) connection(1) has all close.
+<2014-03-17 09:09:23-317, tid = b77236e0> [INF] - (close) async connect work thread all stop.

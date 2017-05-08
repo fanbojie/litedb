@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6873839B-7A43-4F1D-B941-7EA5119315E4}</ProjectGuid>
+    <RootNamespace>litedb</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25420.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\Include\litedb;.\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Connection.cpp" />
+    <ClCompile Include="ConnectionPool.cpp" />
+    <ClCompile Include="ConnectionWorker.cpp" />
+    <ClCompile Include="DatabaseRequest.cpp" />
+    <ClCompile Include="Error.cpp" />
+    <ClCompile Include="HeartBeatWorker.cpp" />
+    <ClCompile Include="Litedb.cpp" />
+    <ClCompile Include="MysqlConnection.cpp" />
+    <ClCompile Include="MysqlFactory.cpp" />
+    <ClCompile Include="MysqlPingRequest.cpp" />
+    <ClCompile Include="MysqlPreparedRequest.cpp" />
+    <ClCompile Include="MysqlPreparedResultSet.cpp" />
+    <ClCompile Include="MysqlRawRequest.cpp" />
+    <ClCompile Include="MysqlRawResultSet.cpp" />
+    <ClCompile Include="MysqlTask.cpp" />
+    <ClCompile Include="ResultSet.cpp" />
+    <ClCompile Include="SqlTask.cpp" />
+    <ClCompile Include="Utility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\litedb\BaseDefine.h" />
+    <ClInclude Include="..\Include\litedb\Config.h" />
+    <ClInclude Include="..\Include\litedb\Connection.h" />
+    <ClInclude Include="..\Include\litedb\ConnectionInfo.h" />
+    <ClInclude Include="..\Include\litedb\ConnectionPool.h" />
+    <ClInclude Include="..\Include\litedb\ConnectionWorker.h" />
+    <ClInclude Include="..\Include\litedb\DatabaseFactory.h" />
+    <ClInclude Include="..\Include\litedb\DatabaseRequest.h" />
+    <ClInclude Include="..\Include\litedb\Error.h" />
+    <ClInclude Include="..\Include\litedb\HeartBeatWorker.h" />
+    <ClInclude Include="..\Include\litedb\Litedb.h" />
+    <ClInclude Include="..\Include\litedb\MysqlConnection.h" />
+    <ClInclude Include="..\Include\litedb\MysqlError.h" />
+    <ClInclude Include="..\Include\litedb\MysqlFactory.h" />
+    <ClInclude Include="..\Include\litedb\MysqlPingRequest.h" />
+    <ClInclude Include="..\Include\litedb\MysqlPreparedRequest.h" />
+    <ClInclude Include="..\Include\litedb\MysqlPreparedResultSet.h" />
+    <ClInclude Include="..\Include\litedb\MysqlRawRequest.h" />
+    <ClInclude Include="..\Include\litedb\MysqlRawResultSet.h" />
+    <ClInclude Include="..\Include\litedb\MysqlTask.h" />
+    <ClInclude Include="..\Include\litedb\ParamStatement.h" />
+    <ClInclude Include="..\Include\litedb\ResponseHandle.h" />
+    <ClInclude Include="..\Include\litedb\ResultSet.h" />
+    <ClInclude Include="..\Include\litedb\SqlTask.h" />
+    <ClInclude Include="..\Include\litedb\Types.h" />
+    <ClInclude Include="..\Include\litedb\Utility.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

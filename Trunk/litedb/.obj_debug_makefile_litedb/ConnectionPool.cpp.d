@@ -1,0 +1,22 @@
+ .obj_debug_makefile_litedb/ConnectionPool.o:  \
+ /home/fan_bojie/workspace/litedb/litedb/../litedb/ConnectionPool.cpp \
+  /home/fan_bojie/workspace/litedb/litedb/../litedb/ConnectionPool.h \
+  /home/fan_bojie/workspace/litedb/litedb/../litedb/Config.h \
+  /home/fan_bojie/workspace/litedb/litedb/../litebase/Noncopyable.h \
+  /home/fan_bojie/workspace/litedb/litedb/../litebase/Config.h \
+  /home/fan_bojie/workspace/litedb/litedb/../litebase/ConditionVariable.h \
+  /home/fan_bojie/workspace/litedb/litedb/../litebase/Noncopyable.h \
+  /home/fan_bojie/workspace/litedb/litedb/../litebase/Mutex.h \
+  /home/fan_bojie/workspace/litedb/litedb/../litebase/Singleton.h \
+  /home/fan_bojie/workspace/litedb/litedb/../litedb/ConnectionInfo.h \
+  /home/fan_bojie/workspace/litedb/litedb/../litebase/Utility.h \
+  /home/fan_bojie/workspace/litedb/litedb/../litedb/MysqlFactory.h \
+  /home/fan_bojie/workspace/litedb/litedb/../litedb/DatabaseFactory.h \
+  /home/fan_bojie/workspace/litedb/litedb/../litedb/Connection.h \
+  /home/fan_bojie/workspace/litedb/litedb/../litebase/Mutex.h \
+  /home/fan_bojie/workspace/litedb/litedb/../litedb/SqlTask.h \
+  /home/fan_bojie/workspace/litedb/litedb/../litedb/Types.h \
+  /home/fan_bojie/workspace/litedb/litedb/../litedb/MysqlError.h \
+  /home/fan_bojie/workspace/litedb/litedb/../litedb/Error.h \
+  /home/fan_bojie/workspace/litedb/litedb/../litedb/BaseDefine.h \
+  /home/fan_bojie/workspace/litedb/litedb/../litebase/ScopeLock.h

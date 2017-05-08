@@ -1,0 +1,65 @@
+#
+# makefile for x86
+#
+
+# 工程目录
+TOPDIR = $(shell pwd)/..
+PJNAME = dbtest
+#
+# 编译器设置
+#
+# 交叉编译工具前缀，空着表示x86
+CROSS = 
+# debug还是release，可以在make时加参数，如“make DEBUG=1”
+DEBUG = 0
+
+# 编译出的二进制类型，目前支持静态库static，动态库shared，可执行程序exec
+BINARY = exec
+ifeq ($(BINARY), static)
+TARGET = $(CROSS)lib$(PJNAME).a
+else ifeq ($(BINARY), exec)
+TARGET = $(CROSS)$(PJNAME)
+else
+TARGET = $(CROSS)lib$(PJNAME).so
+endif
+
+# 二进制输出路径
+INSTALL_PATH = $(TOPDIR)/Bin
+
+#
+# 目录设置
+#
+# 源文件目录路径
+SRCPATH = $(TOPDIR)/dbtest
+# 需要编译的源文件子目录（必须在源文件目录路径之下）
+SRCSUBDIR = 
+
+# 头文件目录
+INCDIR = $(TOPDIR)/Include/dbtest \
+		 $(TOPDIR)/Include/gtest/include \
+
+# 链接的库路径（静态库不用）
+ifeq ($(DEBUG), 1)
+LIBDIR = $(TOPDIR)/Lib/Debug
+else
+LIBDIR = $(TOPDIR)/Lib/Release
+endif
+
+LIBDIR += $(TOPDIR)/Lib/gtest
+
+# 链接的库（静态库不用）
+LIBS = litedb gtest
+
+
+# 一些自定义的编译flags（debug和release的一些选项已在common.mk中包含）
+CFLAGS = -Wall -g
+
+ifeq ($(M32), 1)
+CFLAGS += -m32
+endif
+
+# 一些自定义的链接flags（静态库不用）
+LDFLAGS = 
+
+# 进入实质处理
+include common.mk
